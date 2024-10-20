@@ -4,7 +4,7 @@ include 'header.php';
 
 <div class="container">
     <div class="row">
-        <ol class="breadcrub">
+        <ol class="breadcrumb">
             <h4>Kriteria</h4>
         </ol>
     </div>
@@ -36,7 +36,7 @@ include 'header.php';
                             <td class="text-center"><?php echo $a['bobot_kriteria']; ?></td>
                             <td class="text-center"><?php echo $a['tipe_kriteria']; ?></td>
                             <td class="text-center">
-                                <a href="subkriteria.php?id_kriteria=><?php echo $a['id_kriteria']; ?>"
+                                <a href="subkriteria.php?id_kriteria=<?php echo $a['id_kriteria']; ?>"
                                     class="btn btn-primary">LIHAT</a>
                             </td>
                             <td class="text-center">

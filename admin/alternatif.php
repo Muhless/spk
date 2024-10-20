@@ -4,7 +4,7 @@ include 'header.php';
 
 <div class="container">
     <div class="row">
-        <ol class="breadcrub">
+        <ol class="breadcrumb">
             <h4>alternatif</h4>
         </ol>
     </div>

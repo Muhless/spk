@@ -22,10 +22,12 @@ if (isset($_GET['proses'])) {
         WHERE id_kriteria='$id_kriteria'";
         mysqli_query($koneksi, $query);
         header("location:kriteria.php");
+
     } else if ($_GET['proses']=='proses_hapus'){
         $id_kriteria=$_GET['id_kriteria'];
         $query="DELETE FROM tbl_kriteria WHERE id_kriteria=$id_kriteria";
-        mysqli_query($koneksi, $query);
+        $query1="DELETE FROM tbl_subkriteria WHERE id_subkriteria=$id_kriteria";
+        mysqli_query($koneksi, $query, $query1);
         header("location:kriteria.php");
     }
 }

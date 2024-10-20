@@ -9,7 +9,7 @@ if (isset($_GET['aksi'])) {
         </ol>
     </div>
     <div class="panel panel-container">
-        <div class="bootsrap-table">
+        <div class="bootstrap-table">
             <form action="alternatif_proses.php?proses=proses_tambah" method="post" enctype="multipart/form-data">
                 <div class="form-group">
                     <label for="">Nama Alternatif</label>

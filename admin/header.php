@@ -1,5 +1,6 @@
 <?php
 session_start();
+error_reporting(0);
 include  '../assets/conn/koneksi.php';
 include  '../assets/conn/cek.php';
 ?>

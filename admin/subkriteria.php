@@ -9,13 +9,13 @@ include 'header.php';
         $a=mysqli_fetch_array($data);
         ?>
 
-        <ol class="breadcrub">
-            <h4>Sub Kriteria / <a href="kriteria.php"><?php echo $a['nama_kriteria'] ?></a></h4>
+        <ol class="breadcrumb">
+            <h4>Sub Kriteria / <a href="kriteria.php"> <?php echo $a['nama_kriteria']; ?></a></h4>
         </ol>
     </div>
     <div class="panel panel-container">
         <div class="bootstrap-table">
-            <a href="subkriteria_aksi.php?aksi=tambah&id_kriteria=<?php echo $_GET['id_kriteria']?>"
+            <a href="subkriteria_aksi.php?aksi=tambah&id_kriteria=<?php echo $_GET['id_kriteria']; ?>"
                 class="btn btn-primary">TAMBAH DATA</a>
             <hr>
             <div class="table-responsive">
