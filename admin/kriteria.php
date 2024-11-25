@@ -49,9 +49,9 @@ include 'header.php';
                         <?php } ?>
 
                         <div class="main-panel">
-        <div class="content-wrapper">
+        <!-- <div class="content-wrapper">
           <div class="row">
-            <!--  -->
+            
             <div class="grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
@@ -105,9 +105,8 @@ include 'header.php';
                 </div>
               </div>
             </div>
-            <!-- ANCHOR END -->
           </div>
-        </div>
+        </div> -->
       </div>
 
                     </tbody>
