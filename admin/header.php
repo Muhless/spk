@@ -13,7 +13,7 @@ include  '../conn/cek.php';
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Penggilingan Padi</title>
+  <title>PG. Pritani</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="../assets/vendors/feather/feather.css">
   <link rel="stylesheet" href="../assets/vendors/mdi/css/materialdesignicons.min.css">
@@ -29,7 +29,7 @@ include  '../conn/cek.php';
   <!-- inject:css -->
   <link rel="stylesheet" href="../assets/css/style.css">
   <!-- endinject -->
-  <link rel="shortcut icon" href="../assets/images/favicon.png" />
+  <link rel="shortcut icon" href="../assets/images/logo1.png" />
 </head>
 
 <body>
@@ -43,15 +43,16 @@ include  '../conn/cek.php';
           </button>
         </div>
         <div>
-          <a class="navbar-brand brand-logo" href="../index.html">
+          <a class="navbar-brand brand-logo" href="index.php">
             <img src="../assets/images/logo.svg" alt="logo" />
           </a>
-          <a class="navbar-brand brand-logo-mini" href="../index.html">
+          <a class="navbar-brand brand-logo-mini" href="index.php">
             <img src="../assets/images/logo-mini.svg" alt="logo" />
           </a>
         </div>
       </div>
-      <div class="navbar-menu-wrapper d-flex align-items-top">
+      <!-- FIXME: -->
+      <!-- <div class="navbar-menu-wrapper d-flex align-items-top">
         <ul class="navbar-nav">
           <li class="nav-item fw-semibold d-none d-lg-block ms-0">
             <h1 class="welcome-text">Good Morning, <span class="text-black fw-bold">John Doe</span></h1>
@@ -214,25 +215,25 @@ include  '../conn/cek.php';
           data-bs-toggle="offcanvas">
           <span class="mdi mdi-menu"></span>
         </button>
-      </div>
+      </div> -->
+      <!-- FIXME: -->
     </nav>
-    <!-- partial -->
-    <div class="container-fluid page-body-wrapper">
-      <!-- partial:../partials/_sidebar.html -->
+    <!-- NAVBAR -->
+    <!-- <div class="container-fluid page-body-wrapper">
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link" href="../index.html">
+            <a class="nav-link" href="index.php">
               <i class="mdi mdi-grid-large menu-icon"></i>
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
-          <li class="nav-item nav-category">Sistem Pendukung Keputusan</li>
+          <li class="nav-item nav-category">Manajemen</li>
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false"
               aria-controls="ui-basic">
               <i class="menu-icon mdi mdi-floor-plan"></i>
-              <span class="menu-title">cihuy</span>
+              <span class="menu-title">Penjualan</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-basic">
@@ -248,7 +249,7 @@ include  '../conn/cek.php';
             <a class="nav-link" data-bs-toggle="collapse" href="#form-elements" aria-expanded="false"
               aria-controls="form-elements">
               <i class="menu-icon mdi mdi-card-text-outline"></i>
-              <span class="menu-title">Form elements</span>
+              <span class="menu-title">Karyawan</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="form-elements">
@@ -261,7 +262,7 @@ include  '../conn/cek.php';
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#charts" aria-expanded="false" aria-controls="charts">
               <i class="menu-icon mdi mdi-chart-line"></i>
-              <span class="menu-title">Charts</span>
+              <span class="menu-title">Customers</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="charts">
@@ -269,60 +270,51 @@ include  '../conn/cek.php';
                 <li class="nav-item"> <a class="nav-link" href="../pages/charts/chartjs.html">ChartJs</a></li>
               </ul>
             </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#tables" aria-expanded="false" aria-controls="tables">
-              <i class="menu-icon mdi mdi-table"></i>
-              <span class="menu-title">Tables</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="tables">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="../pages/tables/basic-table.html">Basic table</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" data-bs-toggle="collapse" href="#icons" aria-expanded="false" aria-controls="icons">
-              <i class="menu-icon mdi mdi-layers-outline"></i>
-              <span class="menu-title">Icons</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="icons">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="../pages/icons/font-awesome.html">Font Awesome</a></li>
-              </ul>
-            </div>
+
+          <li class="nav-item nav-category">Sistem Pendukung Keputusan</li>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-bs-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
-              <i class="menu-icon mdi mdi-account-circle-outline"></i>
-              <span class="menu-title">User Pages</span>
+              <i class="menu-icon mdi mdi-table"></i>
+              <span class="menu-title">Kriteria</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="auth">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="../pages/samples/blank-page.html"> Blank Page </a></li>
-                <li class="nav-item"> <a class="nav-link" href="../pages/samples/error-404.html"> 404 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="../pages/samples/error-500.html"> 500 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="../pages/samples/login.html"> Login </a></li>
-                <li class="nav-item"> <a class="nav-link" href="../pages/samples/register.html"> Register </a></li>
+                <li class="nav-item"> <a class="nav-link" href="kriteria.php">Kriteria</a></li>
+                <li class="nav-item"> <a class="nav-link" href="subkriteria.php">Sub Kriteria</a></li>
               </ul>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../docs/documentation.html">
+            <a class="nav-link" href="alternatif.php">
+              <i class="menu-icon mdi mdi-account-circle-outline"></i>
+              <span class="menu-title">Alternatif</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nilai.php">
               <i class="menu-icon mdi mdi-file-document"></i>
-              <span class="menu-title">Documentation</span>
+              <span class="menu-title">Nilai</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hasil.php">
+              <i class="menu-icon mdi mdi-file-document"></i>
+              <span class="menu-title">Hasil</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="logout.php">
+              <i class="menu-icon mdi mdi-logout-variant"></i>
+              <span class="menu-title">Logout</span>
             </a>
           </li>
         </ul>
       </nav>
-      <!-- partial -->
-      
-      <!-- main-panel ends -->
-    </div>
-    <!-- page-body-wrapper ends -->
+    </div> -->
+    <!-- NAVBAR -->
+
   </div>
   <!-- container-scroller -->
   <!-- plugins:js -->
