@@ -1,5 +1,5 @@
 <?php 
-include 'header.php';
+include '../conn/koneksi.php';
 if (isset($_GET['proses'])) {
     if ($_GET['proses']=='proses_tambah') {
     
