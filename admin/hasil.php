@@ -15,6 +15,27 @@ include 'header.php';
                     <span class="menu-title">Halaman Awal</span>
                 </a>
             </li>
+            <!--  -->
+            <li class="nav-item nav-category">Dashboard</li>
+            <li class="nav-item">
+                <a class="nav-link" href="../dashboard/transaksi.php">
+                    <i class="menu-icon mdi mdi-clipboard-text"></i>
+                    <span class="menu-title">Transaksi</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../dashboard/pelanggan.php">
+                    <i class="menu-icon mdi mdi-account"></i>
+                    <span class="menu-title">Pelanggan</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../dashboard/karyawan.php">
+                    <i class="menu-icon mdi mdi-account-multiple"></i>
+                    <span class="menu-title">Karyawan</span>
+                </a>
+            </li>
+            <!--  -->
             <!-- FIXME -->
             <li class="nav-item nav-category">Sistem Pendukung Keputusan</li>
             <li class="nav-item">
@@ -49,7 +70,7 @@ include 'header.php';
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="logout.php">
+                <a class="nav-link mt-5" href="logout.php">
                     <i class="menu-icon mdi mdi-logout-variant"></i>
                     <span class="menu-title">Logout</span>
                 </a>

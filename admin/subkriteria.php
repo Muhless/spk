@@ -48,7 +48,7 @@ include 'header.php';
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="logout.php">
+                <a class="nav-link mt-5" href="logout.php">
                     <i class="menu-icon mdi mdi-logout-variant"></i>
                     <span class="menu-title">Logout</span>
                 </a>

@@ -7,7 +7,7 @@ include "../admin/header.php";
   <nav class="sidebar sidebar-offcanvas" id="sidebar">
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link" href="index.php">
+        <a class="nav-link" href="../admin/index.php">
           <i class="mdi mdi-grid-large menu-icon"></i>
           <span class="menu-title">Halaman Awal</span>
         </a>
@@ -36,38 +36,38 @@ include "../admin/header.php";
       <!-- FIXME -->
       <li class="nav-item nav-category">Sistem Pendukung Keputusan</li>
       <li class="nav-item">
-        <a class="nav-link" href="alternatif.php">
+        <a class="nav-link" href="../admin/alternatif.php">
           <i class="menu-icon mdi mdi-format-list-bulleted"></i>
           <span class="menu-title">Alternatif</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="kriteria.php">
+        <a class="nav-link" href="../admin/kriteria.php">
           <i class="menu-icon mdi mdi-playlist-plus"></i>
           <span class="menu-title">Kriteria</span>
         </a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="nilai.php">
+        <a class="nav-link" href="../admin/nilai.php">
           <i class="menu-icon mdi mdi-check-all"></i>
           <span class="menu-title">Nilai</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="metode.php">
+        <a class="nav-link" href="../admin/metode.php">
           <i class="menu-icon mdi mdi-chart-bar"></i>
           <span class="menu-title">Metode</span>
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="hasil.php">
+        <a class="nav-link" href="../admin/hasil.php">
           <i class="menu-icon mdi mdi-crown"></i>
           <span class="menu-title">Hasil</span>
         </a>
       </li>
       <li class="nav-item mt-5">
-        <a class="nav-link" href="logout.php">
+        <a class="nav-link" href="../admin/logout.php">
           <i class="menu-icon mdi mdi-logout-variant"></i>
           <span class="menu-title">Logout</span>
         </a>
@@ -77,7 +77,7 @@ include "../admin/header.php";
     </ul>
   </nav>
   <!-- end sidebar -->
-  
+
   <!-- CONTENT -->
   <div class="main-panel">
     <div class="content-wrapper">

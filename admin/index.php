@@ -77,7 +77,7 @@ include "header.php";
     </ul>
   </nav>
   <!-- end sidebar -->
-  
+
   <!-- CONTENT -->
   <div class="main-panel">
     <div class="content-wrapper">
