@@ -11,7 +11,7 @@ include 'header.php';
       <li class="nav-item">
         <a class="nav-link" href="index.php">
           <i class="mdi mdi-grid-large menu-icon"></i>
-          <span class="menu-title">Dashboard</span>
+          <span class="menu-title">Halaman Awal</span>
         </a>
       </li>
       <!-- FIXME -->
