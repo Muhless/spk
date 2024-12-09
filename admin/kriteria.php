@@ -129,6 +129,12 @@ include 'header.php';
                             <?php } ?>
                           </tbody>
                         </table>
+                        <div class="d-flex justify-content-end mx-3">
+                          <a href="nilai.php" class="mt-4 btn btn-success">
+                            Selanjutnya
+                            <i class="menu-icon mdi mdi-arrow-right-bold"></i>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>

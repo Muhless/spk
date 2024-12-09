@@ -378,6 +378,12 @@ include 'header.php';
 
                           </tbody>
                         </table>
+                        <div class="d-flex justify-content-end mx-3">
+                          <a href="hasil.php" class="mt-4 btn btn-success">
+                            Selanjutnya
+                            <i class="menu-icon mdi mdi-arrow-right-bold"></i>
+                          </a>
+                        </div>
                       </div>
                       <!--  -->
                       <?php
@@ -389,8 +395,8 @@ include 'header.php';
                         $rank++;
                       }
                       ?>
-                      <!--  -->
-                      <h4 class="mt-5">Perangkingan</h4>
+                      <!-- perankingan -->
+                      <!-- <h4 class="mt-5">Perangkingan</h4>
                       <hr>
                       <div class="table-responsive">
                         <table class="table table-bordered table-hover">
@@ -419,7 +425,9 @@ include 'header.php';
 
                           </tbody>
                         </table>
-                      </div>
+                        
+                      </div> -->
+                      <!-- end perankingan -->
                     </div>
                   </div>
                 </div>
