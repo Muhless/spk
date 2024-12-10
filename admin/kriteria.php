@@ -99,7 +99,7 @@ include 'header.php';
                               <th class="text-center">Nama Kriteria</th>
                               <th class="text-center">Bobot</th>
                               <th class="text-center">Tipe</th>
-                              <th class="text-center">Opsi</th>
+                              <th class="text-center">Opsi Penilaian</th>
                               <th class="text-center">Aksi</th>
                             </tr>
                           </thead>
@@ -129,8 +129,11 @@ include 'header.php';
                             <?php } ?>
                           </tbody>
                         </table>
+                        <div>
+                          <p class="mt-2">*Note: Pastikan bobot tidak lebih dari 100!</p>
+                        </div>
                         <div class="d-flex justify-content-end mx-3">
-                          <a href="nilai.php" class="mt-4 btn btn-success">
+                          <a href="nilai.php" class="mt-2 btn btn-success">
                             Selanjutnya
                             <i class="menu-icon mdi mdi-arrow-right-bold"></i>
                           </a>

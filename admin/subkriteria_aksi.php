@@ -16,11 +16,11 @@ if (isset($_GET['aksi'])) {
                     value="<?php echo $_GET['id_kriteria'] ?>">
 
                 <div class="form-group">
-                    <label for="">Nama Subkriteria</label>
+                    <label for="">Opsi</label>
                     <input type="text" name="nama_subkriteria" class="form-control" placeholder="nama subkriteria">
                 </div>
                 <div class="form-group">
-                    <label for="">Nilai Subkriteria</label>
+                    <label for="">Nilai</label>
                     <input type="number" name="nilai_subkriteria" class="form-control" placeholder="0">
                 </div>
 

@@ -151,7 +151,7 @@ include "header.php";
                           <li class="border-bottom-0">
                             <div class="list align-items-center py-2">
                               <div class="wrapper w-100">
-                                <p class="mb-2 fw-medium">Penjualan Beras</p>
+                                <p class="mb-2 fw-medium">Pembelian Beras</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                   <div class="d-flex align-items-center">
                                     <i class="mdi mdi-calendar text-muted me-1"></i>

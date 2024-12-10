@@ -82,101 +82,102 @@ include "../admin/header.php";
   <div class="main-panel">
     <div class="content-wrapper">
       <div class="row">
-        <div class="col-lg-8 d-flex flex-column">
-          <div class="row flex-grow">
-            <div class="col-12 col-lg-4 col-lg-12 grid-margin stretch-card">
-              <div class="card card-rounded">
-                <div class="card-body">
-                  <div class="d-sm-flex justify-content-between align-items-start">
-                    <div>
-                      <h4 class="card-title card-title-dash">Halaman Awal</h4>
-                      <h5 class="card-subtitle card-subtitle-dash">Lorem Ipsum is simply dummy text of the printing</h5>
-                    </div>
-                    <div id="performanceLine-legend"></div>
-                  </div>
-                  <div class="chartjs-wrapper mt-4">
-                    <canvas id="performanceLine" width=""></canvas>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 d-flex flex-column">
-          <div class="row flex-grow">
-            <div class="col-md-6 col-lg-12 grid-margin stretch-card">
-              <div class="card bg-primary card-rounded">
-                <div class="card-body pb-0">
-                  <h4 class="card-title card-title-dash text-white mb-4">Status Summary</h4>
-                  <div class="row">
-                    <div class="col-sm-4">
-                      <p class="status-summary-ight-white mb-1">Closed Value</p>
-                      <h2 class="text-info">357</h2>
-                    </div>
-                    <div class="col-sm-8">
-                      <div class="status-summary-chart-wrapper pb-4">
-                        <canvas id="status-summary"></canvas>
+        <div class="col-lg-12 grid-margin">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="card-title">Karyawan</h2>
+              <div class="row">
+                <!-- TODO -->
+                <div class="container">
+                  <div class="panel panel-container">
+                    <div class="bootstrap-table">
+                      <a href="kriteria_aksi.php?aksi=tambah" class="btn btn-primary">TAMBAH DATA</a>
+                      <hr>
+                      <div class="table-responsive">
+                        <table class="table table-bordered table-hover">
+                          <thead>
+                            <tr>
+                              <th class="text-center">No</th>
+                              <th class="text-center">Nama</th>
+                              <th class="text-center">Alamat</th>
+                              <th class="text-center">No Telepon</th>
+                              <th class="text-center">Absensi</th>
+                              <th class="text-center">Gaji</th>
+                              <th class="text-center">Keterangan</th>
+                              <th class="text-center">Aksi</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="text-center">1</td>
+                              <td>Sarmada</td>
+                              <td class="text-center">Kp. Cangkudu, Kec. Balaraja</td>
+                              <td class="text-center">08871165551</td>
+                              <td class="text-center">
+                                <a class="btn btn-info">Cek Absensi</a>
+                              </td>
+                              <td class="text-center">Rp3.500.000</td>
+                              <td class="text-center">Aktif</td>
+                              <td class="text-center">
+                                <a class="btn btn-success">UBAH</a>
+                                <a href="kriteria_proses.php?id_kriteria=<?php echo $a['id_kriteria']; ?>&proses=proses_hapus"
+                                  class="btn btn-danger">HAPUS</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="text-center">2</td>
+                              <td>Ahmad Letto</td>
+                              <td class="text-center">Kp. Caringin, Kec. Cisoka</td>
+                              <td class="text-center">081234128967</td>
+                              <td class="text-center"><a class="btn btn-info">Cek Absensi</a></td>
+                              <td class="text-center">Rp3.500.000</td>
+                              <td class="text-center">Aktif</td>
+                              <td class="text-center">
+                                <a class="btn btn-success">UBAH</a>
+                                <a href="kriteria_proses.php?id_kriteria=<?php echo $a['id_kriteria']; ?>&proses=proses_hapus"
+                                  class="btn btn-danger">HAPUS</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="text-center">3</td>
+                              <td>Pian Andrian</td>
+                              <td class="text-center">Telaga Bestari, blok A4, Kec. Balaraja</td>
+                              <td class="text-center">088136784562</td>
+                              <td class="text-center"><a class="btn btn-info">Cek Absensi</a></td>
+                              <td class="text-center">Rp3.500.000</td>
+                              <td class="text-center">Tidak Aktif</td>
+                              <td class="text-center">
+                                <a class="btn btn-success">UBAH</a>
+                                <a href="kriteria_proses.php?id_kriteria=<?php echo $a['id_kriteria']; ?>&proses=proses_hapus"
+                                  class="btn btn-danger">HAPUS</a>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="text-center">4</td>
+                              <td>Lintang Ramadhan</td>
+                              <td class="text-center">Jl. Pasir Bolang, RT.06 RW.01</td>
+                              <td class="text-center">085678564376</td>
+                              <td class="text-center"><a class="btn btn-info">Cek Absensi</a></td>
+                              <td class="text-center">Rp3.500.000</td>
+                              <td class="text-center">Tidak Aktif</td>
+                              <td class="text-center">
+                                <a class="btn btn-success">UBAH</a>
+                                <a href="kriteria_proses.php?id_kriteria=<?php echo $a['id_kriteria']; ?>&proses=proses_hapus"
+                                  class="btn btn-danger">HAPUS</a>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-12 grid-margin stretch-card">
-              <div class="card card-rounded">
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col-lg-6">
-                      <div class="d-flex justify-content-between align-items-center mb-2 mb-sm-0">
-                        <div class="circle-progress-width">
-                          <div id="totalVisitors" class="progressbar-js-circle pr-2"></div>
-                        </div>
-                        <div>
-                          <p class="text-small mb-2">Total Visitors</p>
-                          <h4 class="mb-0 fw-bold">26.80%</h4>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="d-flex justify-content-between align-items-center">
-                        <div class="circle-progress-width">
-                          <div id="visitperday" class="progressbar-js-circle pr-2"></div>
-                        </div>
-                        <div>
-                          <p class="text-small mb-2">Visits per day</p>
-                          <h4 class="mb-0 fw-bold">9065</h4>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12 d-flex flex-column">
-          <div class="row flex-grow">
-            <div class="col-12 col-lg-4 col-lg-12 grid-margin stretch-card">
-              <div class="card card-rounded">
-                <div class="card-body">
-                  <div class="d-sm-flex justify-content-between align-items-start">
-                    <div>
-                      <h4 class="card-title card-title-dash">Halaman Awal</h4>
-                      <h5 class="card-subtitle card-subtitle-dash">Lorem Ipsum is simply dummy text of the printing</h5>
-                    </div>
-                    <div id="performanceLine-legend"></div>
-                  </div>
-                  <div class="chartjs-wrapper mt-4">
-                    <canvas id="performanceLine" width=""></canvas>
-                  </div>
-                </div>
+                <!-- TODO -->
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- END CONTENT -->
   </div>
+  <!-- end CONTENT -->

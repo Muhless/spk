@@ -89,7 +89,7 @@ include 'header.php';
                 <div class="col-lg-12 grid-margin">
                     <div class="card">
                         <div class="card-body">
-                            <h2 class="card-title">Kriteria</h2>
+                            <h2 class="card-title">Nilai</h2>
                             <div class="row">
                                 <!-- TODO -->
                                 <div class="container">

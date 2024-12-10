@@ -15,10 +15,29 @@ include 'header.php';
                 </a>
             </li>
             <!-- FIXME -->
+            <li class="nav-item nav-category">Dashboard</li>
+            <li class="nav-item">
+                <a class="nav-link" href="../dashboard/transaksi.php">
+                    <i class="menu-icon mdi mdi-clipboard-text"></i>
+                    <span class="menu-title">Transaksi</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../dashboard/pelanggan.php">
+                    <i class="menu-icon mdi mdi-account"></i>
+                    <span class="menu-title">Pelanggan</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../dashboard/karyawan.php">
+                    <i class="menu-icon mdi mdi-account-multiple"></i>
+                    <span class="menu-title">Karyawan</span>
+                </a>
+            </li>
             <li class="nav-item nav-category">Sistem Pendukung Keputusan</li>
             <li class="nav-item">
                 <a class="nav-link" href="alternatif.php">
-                    <i class="menu-icon mdi mdi-account-circle-outline"></i>
+                    <i class="menu-icon mdi mdi-format-list-bulleted"></i>
                     <span class="menu-title">Alternatif</span>
                 </a>
             </li>
@@ -64,7 +83,7 @@ include 'header.php';
                 <div class="col-lg-12 grid-margin">
                     <div class="card">
                         <div class="card-body">
-                            <h1 class="card-title">Sub Kriteria</h1>
+                            <h1 class="card-title">Opsi Penilaian</h1>
                             <div class="row">
                                 <!-- TODO -->
                                 <div class="container">
@@ -88,9 +107,9 @@ include 'header.php';
                                                     <thead>
                                                         <tr>
                                                             <th class="text-center">No</th>
-                                                            <th class="text-center">Nama Subkriteria</th>
-                                                            <th class="text-center">Nilai</th>
                                                             <th class="text-center">Opsi</th>
+                                                            <th class="text-center">Nilai</th>
+                                                            <th class="text-center">Aksi</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>

@@ -99,9 +99,10 @@ include "../admin/header.php";
                             <tr>
                               <th class="text-center">No</th>
                               <th class="text-center">Transaksi</th>
+                              <th class="text-center">Tanggal</th>
                               <th class="text-center">Jumlah</th>
                               <th class="text-center">Harga</th>
-                              <th class="text-center">Detail</th>
+                              <th class="text-center">Keterangan</th>
                               <th class="text-center">Aksi</th>
                             </tr>
                           </thead>
@@ -109,8 +110,9 @@ include "../admin/header.php";
                             <tr>
                               <td class="text-center">1</td>
                               <td>Penjualan beras</td>
-                              <td class="text-center">20 kg</td>
-                              <td class="text-center">Rp. 280.000</td>
+                              <td class="text-center">20 November 2024</td>
+                              <td class="text-center">20kg</td>
+                              <td class="text-center">Rp280.000</td>
                               <td class="text-center">Lunas</td>
                               <td class="text-center">
                                 <a href="kriteria_aksi.php?id_kriteria=<?php echo $a['id_kriteria']; ?>&aksi=ubah"
@@ -122,8 +124,9 @@ include "../admin/header.php";
                             <tr>
                               <td class="text-center">2</td>
                               <td>Penjualan beras</td>
-                              <td class="text-center">5 kg</td>
-                              <td class="text-center">Rp. 70.000</td>
+                              <td class="text-center">26 November 2024</td>
+                              <td class="text-center">5kg</td>
+                              <td class="text-center">Rp70.000</td>
                               <td class="text-center">Lunas</td>
                               <td class="text-center">
                                   <a href="kriteria_aksi.php?id_kriteria=<?php echo $a['id_kriteria']; ?>&aksi=ubah"
@@ -135,8 +138,9 @@ include "../admin/header.php";
                             <tr>
                               <td class="text-center">3</td>
                               <td>Pembelian beras</td>
-                              <td class="text-center">8 kg</td>
-                              <td class="text-center">Rp. 112.000</td>
+                              <td class="text-center">3 Desember 2024</td>
+                              <td class="text-center">8kg</td>
+                              <td class="text-center">Rp112.000</td>
                               <td class="text-center">Lunas</td>
                               <td class="text-center">
                                   <a href="kriteria_aksi.php?id_kriteria=<?php echo $a['id_kriteria']; ?>&aksi=ubah"
@@ -148,9 +152,10 @@ include "../admin/header.php";
                             <tr>
                               <td class="text-center">4</td>
                               <td>Pembelian beras</td>
-                              <td class="text-center">30 kg</td>
-                              <td class="text-center">Rp. 420.000</td>
-                              <td class="text-center">Hutang (Bapak Amirudin)</td>
+                              <td class="text-center">5 Desember 2024</td>
+                              <td class="text-center">30kg</td>
+                              <td class="text-center">Rp420.000</td>
+                              <td class="text-center">Hutang</td>
                               <td class="text-center">
                                   <a href="kriteria_aksi.php?id_kriteria=<?php echo $a['id_kriteria']; ?>&aksi=ubah"
                                     class="btn btn-success">UBAH</a>
@@ -172,3 +177,4 @@ include "../admin/header.php";
       </div>
     </div>
   </div>
+  <!-- end CONTENT -->
