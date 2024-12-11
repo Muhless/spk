@@ -111,7 +111,7 @@ include 'header.php';
                                                         ?>
                                                             <tr>
                                                                 <td class="text-center"><?php echo $no++ ?></td>
-                                                                <td class="text-center"><?php echo $a['nama_alternatif']; ?></td>
+                                                                <td><?php echo $a['nama_alternatif']; ?></td>
                                                                 <td class="text-center"><?php echo number_format($a['nilai_saw'], 2); ?></td>
                                                                 <td class="text-center"><?php echo $a['ranking']; ?></td>
                                                             </tr>

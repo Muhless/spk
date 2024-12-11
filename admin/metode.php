@@ -184,6 +184,16 @@ include 'header.php';
                           </tbody>
                           <!--  -->
                           <tr>
+                            <td colspan="2">Benefit/Cost</td>
+                            <?php
+                            $tabel = "SELECT tipe_kriteria FROM tbl_kriteria";
+                            $query = mysqli_query($koneksi, $tabel) or die(mysqli_error($koneksi));
+                            while ($b = mysqli_fetch_array($query)) {
+                              echo "<td class='text-center'><b>$b[tipe_kriteria]</b</td>";
+                            }
+                            ?>
+                          </tr>
+                          <tr>
                             <td colspan="2">Nilai Max</td>
                             <?php
                             $query = mysqli_query($koneksi, "SELECT * FROM tbl_kriteria order by id_kriteria");
@@ -282,14 +292,22 @@ include 'header.php';
                                   echo "<td class='text-center'>" . $val . "</td>";
                                 }
                                 ?>
-                              </tr>
                             <?php } ?>
-
                           </tbody>
+                          </tr>
+                              <td colspan="2">Bobot</td>
+                              <?php
+                              $tabel = "SELECT bobot_kriteria FROM tbl_kriteria";
+                              $query = mysqli_query($koneksi, $tabel) or die(mysqli_error($koneksi));
+                              while ($b = mysqli_fetch_array($query)) {
+                                echo "<td class='text-center'><b>$b[bobot_kriteria]</b</td>";
+                              }
+                              ?>
+                              </tr>
                         </table>
                       </div>
                       <!--  -->
-                      <h4 class="mt-5">Normalisasi Bobot</h4>
+                      <h4 class="mt-5">Nilai Preferensi</h4>
                       <hr>
                       <div class="table-responsive">
                         <table class="table table-bordered">
